@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto';
+    color: #707070;
+}
+
+.container {
+    display: flex;
+}
+
+.text {
+    width: 50%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.text h1 {
+    padding-bottom: 20px;
+    font-size: 3em;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+}
+
+.text h2 {
+    font-size: 1.5em;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+}
+
+.text h3 {
+    padding: 40px 0px 40px 0px;
+    font-size: 2em;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+}
+
+.text h4 {
+    padding:10px 0px 10px 0px;
+}
+
+.text .couleur {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.text .couleur .block-couleur {
+    display: flex;
+}
+
+.text .couleur .block-couleur img{
+    display: flex;
+    padding: 0px 20px 0px 20px;
+}
+
+.text .couleur .block-couleur img:nth-child(1) {
+    padding: 0px 20px 0px 0px;
+}
+
+.button {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button #acheter {
+	background-color:#3b3b3b;
+    display:flex;
+    justify-content: center;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Roboto';
+	font-size:15px;
+	padding:15px 60px;
+	text-decoration:none;
+}
+
+.button #acheter:hover {
+	background-color:#272727;
+}
+
+.button #ajoutPanier {
+	background-color: transparent;
+	border:2px solid #3b3b3b;
+	display:flex;
+	cursor:pointer;
+	color:#3b3b3b;
+	font-family:'Roboto';
+	font-size:15px;
+	padding:15px 30px;
+	text-decoration:none;
+}
+.button #ajoutPanier:hover {
+	background-color:transparent;
+}
+
+.image {
+    width: 50%;
+    height: auto;
+    display: flex;
+}
